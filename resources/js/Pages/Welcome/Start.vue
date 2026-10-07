@@ -8,6 +8,7 @@ import DeFlag from '@/Components/flags/DeFlag.vue'
 import DkFlag from '@/Components/flags/DkFlag.vue'
 import EnFlag from '@/Components/flags/EnFlag.vue'
 import FrFlag from '@/Components/flags/FrFlag.vue'
+import IrFlag from '@/Components/flags/IrFlag.vue'
 import ItFlag from '@/Components/flags/ItFlag.vue'
 import PlFlag from '@/Components/flags/PlFlag.vue'
 import UsFlag from '@/Components/flags/UsFlag.vue'
@@ -18,6 +19,7 @@ import { ArrowRight } from '@lucide/vue'
 const locales = [
     { code: 'ar_SA', component: SaFlag },
     { code: 'he_IL', component: IlFlag },
+    { code: 'fa_IR', component: IrFlag },
     { code: 'da_DK', component: DkFlag },
     { code: 'de_DE', component: DeFlag },
     { code: 'en_GB', component: EnFlag },
